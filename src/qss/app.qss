@@ -1,0 +1,84 @@
+#MainWindow{
+	border:none;
+        background:transparent;
+}
+#menuBar{
+	border:none;
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(178, 178, 178, 255), stop:1 rgba(192, 192, 192, 255));
+}
+#menuBar::item {
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(178, 178, 178, 255), stop:1 rgba(192, 192, 192, 255));
+}
+
+#menuBar::item:selected {
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(178, 178, 178, 255), stop:1 rgba(192, 192, 192, 255));
+}
+
+#menuBar::item:selected { /* when selected using mouse or keyboard */
+     background: #a8a8a8;
+ }
+
+#menuBar::item:pressed {
+     background: #888888;
+ }
+
+#statusBar{
+	border:none;
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(178, 178, 178, 255), stop:1 rgba(148, 148, 148, 255));
+        border-top:1px solid #292929;
+}
+#searchBar{
+	border:none;
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(148, 148, 148, 255), stop:1 rgba(178, 178, 178, 255));
+        border-bottom:1px solid #292929;
+}
+#searchBar:hover{
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(148, 148, 148, 255), stop:1 rgba(178, 178, 178, 255));
+}
+QSlider::groove:horizontal {
+	border: 1px solid #acacac;
+	height: 10px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+	background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #333333,stop:0.90 #777777, stop:1 #bcbcbc);
+	margin: 2px 0;
+        border-radius: 6px;
+}
+QSlider::handle:horizontal {
+	background: #ffffff;
+	border: 1px solid #333333;
+	width: 10px;
+	margin: 1px; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+	border-radius: 5px; 
+}
+
+QLineEdit {
+     border: 1px solid #9c9c9c;
+     border-radius: 8px;
+     padding: 2px 12px;
+     background: qlineargradient(spread:repeat, x1:0.486975, y1:0, x2:0.492462, y2:1, stop:0 rgba(144, 152, 149, 255), stop:0.19598 rgba(255, 255, 255, 255));
+ }
+
+QToolbar:hover{
+        border:none;
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(148, 148, 148, 255), stop:1 rgba(178, 178, 178, 255));
+}
+QAction:hover{
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(148, 148, 148, 255), stop:1 rgba(178, 178, 178, 255));
+        border:none;
+}
+
+QToolButton:hover{
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(148, 148, 148, 255), stop:1 rgba(178, 178, 178, 255));
+        border:none;
+} 
+
+QToolButton:!hover {
+	background-color:qlineargradient(spread:pad, x1:0.488, y1:1, x2:0.482, y2:0, stop:0 rgba(148, 148, 148, 255), stop:1 rgba(178, 178, 178, 255));
+        border:none;
+}
+
+QToolBar{
+padding-left:5px;
+}
+
+#stackview #videoWidget{
+}

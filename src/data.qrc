@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/minitube.ico</file>
+        <file>icons/minitube.svg</file>
+        <file>html/js/jquery.js</file>
+        <file>qss/app.qss</file>
+        <file>html/yui.js</file>
+    </qresource>
+</RCC>
